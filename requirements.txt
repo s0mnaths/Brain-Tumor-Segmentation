@@ -1,0 +1,6 @@
+gradio
+onnxruntime
+numpy
+matplotlib
+albumentations
+opencv-python
