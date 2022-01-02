@@ -70,7 +70,7 @@ def inference(filepath):
 title = "Brain MRI Tumor Detection - Sematic Segmentation using PyTorch"
 description = "Detection of tumor areas of Brain MRI images from the Kaggle dataset"
 # article = "<p style='text-align: center'><a href='https://ai.facebook.com/blog/-detectron2-a-pytorch-based-modular-object-detection-library-/' target='_blank'>Detectron2: A PyTorch-based modular object detection library</a> | <a href='https://github.com/facebookresearch/detectron2' target='_blank'>Github Repo</a></p>"
-examples = [['test-samples/TCGA_CS_4941_19960909_15.tif']]  
+examples = [['test-samples/TCGA_CS_4942_19970222_10.png'], ['test-samples/TCGA_CS_4942_19970222_11.png'], ['test-samples/TCGA_CS_4942_19970222_12.png'], ['test-samples/TCGA_CS_4941_19960909_15.png']]  
 
 gr.Interface(inference, inputs=gr.inputs.Image(type="filepath"), outputs=gr.outputs.Image('plot'), title=title,
     description=description,
