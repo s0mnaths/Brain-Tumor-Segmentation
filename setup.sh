@@ -1,11 +1,2 @@
-mkdir -p ~/.streamlit/
-echo "\
-[general]\n\
-email = \"somnathsharmaji05@gmail.com\"\n\
-" > ~/.streamlit/credentials.toml
-echo "\
-[server]\n\
-headless = true\n\
-enableCORS=false\n\
-port = $PORT\n\
-" > ~/.streamlit/config.toml
+export GRADIO_SERVER_NAME=0.0.0.0 
+export GRADIO_SERVER_PORT="$PORT"
