@@ -27,4 +27,5 @@ examples = [['test-samples/TCGA_CS_4942_19970222_10.png'],
 gr.Interface(inference, inputs=gr.inputs.Image(type="filepath"), outputs=gr.outputs.Image('plot'), title=title,
             description=description,
             article=article,
-            examples=examples).launch(debug=False, enable_queue=True)
+            examples=examples,
+            server_name="0.0.0.0").launch(debug=False, enable_queue=True)
