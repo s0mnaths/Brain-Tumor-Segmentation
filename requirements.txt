@@ -3,4 +3,4 @@ onnxruntime
 numpy
 matplotlib
 albumentations
-opencv-python
+opencv-python-headless
