@@ -29,6 +29,6 @@ The model has been been converted to ONNX format and deployed using Gradio & hos
 ## Predictions 🔍
 Predictions on unseen test data:
 
-![predgif](https://github.com/s0mnaths/Brain-Tumor-Segmentation/blob/master/demo/predictions.gif)
-
 ![samplepred](https://github.com/s0mnaths/Brain-Tumor-Segmentation/blob/master/demo/sample-pred.png)
+
+![predgif](https://github.com/s0mnaths/Brain-Tumor-Segmentation/blob/master/demo/predictions.gif)
