@@ -22,7 +22,7 @@ View the notebook here: [brain_tumor_segmentation.ipynb](https://nbviewer.org/gi
 
 
 ## Deployment 🚀
-The model has been been converted to ONNX format and deployed using Gradio & hosted on Heroku: [Brain MRI Tumor Detection](https://brain-mri-segmentation.herokuapp.com/)
+The model has been converted to ONNX format and deployed using Gradio & hosted on Heroku: [Brain MRI Tumor Detection](https://brain-mri-segmentation.herokuapp.com/)
 
 
 
